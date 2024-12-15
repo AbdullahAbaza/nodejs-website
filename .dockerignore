@@ -1,0 +1,46 @@
+**/node_modules/
+**/dist
+.git
+npm-debug.log
+.coverage
+.coverage.*
+.env
+.aws
+# Exclude log files
+*.log
+# Exclude build artifacts
+build/
+# Exclude test files
+**/*.spec.js
+**/*.test.js
+# Exclude local configuration files
+*.local
+# Exclude node_modules in /app
+/app/node_modules/
+/node_modules/
+# Exclude temporary files
+*.tmp
+*.temp
+# Exclude configuration files
+config/*.json
+config/*.yml
+# Exclude documentation files
+docs/
+# Exclude source maps
+**/*.map
+# Exclude hidden folders and their contents
+.*/**/*
+# Exclude hidden configuration files
+.env.local
+.env.development
+# Exclude hidden log files
+.*.log
+# Exclude hidden cache files
+.cache/
+# Exclude hidden environment files
+.env.*
+# Exclude specific hidden folders
+.github/
+.vscode/
+.turbo/
+.husky/
